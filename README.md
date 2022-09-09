@@ -68,6 +68,14 @@ npm whoami // 是否登录
 npm login // 输入用户名密码邮箱，还有邮箱验证码
 ```
 
+### git tag
+```js
+git tag --list 列出所有的标签
+git ls-remote --tags origin 查看所有的远程标签及commit ID
+
+git tag -d <your_tag_name> 删除一个标签
+git push --delete origin <your_tag_name> 删除远程仓库的标签
+```
 ### lerna publish
 发布前先提交git, 包为private不会发布，如果发布未成功但是tag又打上了，可以先删除git tag
 ```js
