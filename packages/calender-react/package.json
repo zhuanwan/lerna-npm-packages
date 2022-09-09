@@ -1,6 +1,6 @@
 {
   "name": "@wh/calender-react",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "type": "module",
   "main": "./lib/calender.umd.js",
   "module": "./lib/calender.es.js",
@@ -26,10 +26,10 @@
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   },
+  "license": "MIT",
   "description": "calender",
-  "author": "237616635@qq.com",
+  "author": "wuhui",
   "homepage": "https://github.com/zhuanwan/lerna-npm-packages#readme",
-  "license": "ISC",
   "directories": {
     "lib": "lib",
     "types": "types",
@@ -44,5 +44,6 @@
   },
   "bugs": {
     "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
-  }
+  },
+  "gitHead": "1bc37362e4ba96f8efecc5eb2469505ec8b2323f"
 }
