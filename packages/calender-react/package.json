@@ -1,6 +1,6 @@
 {
-  "name": "@wh/calender-react2",
-  "version": "0.0.2",
+  "name": "@wh/calender-react",
+  "version": "0.0.0",
   "type": "module",
   "main": "./lib/calender.umd.js",
   "module": "./lib/calender.es.js",
@@ -46,5 +46,5 @@
   "bugs": {
     "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
   },
-  "gitHead": "4e978666be245dff1f56e0eea2a50c119c819cad"
+  "gitHead": "e743e1ffd86661c4fc2e8cb5ab6baa1674e88843"
 }
