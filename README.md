@@ -61,4 +61,15 @@ calender-react package.json去掉   "private": true,
 lerna list
 ```
 
-### 发布npm 
+### 登录npm 
+```js
+npm config set registry https://registry.npmjs.org/
+npm whoami // 是否登录
+npm login // 输入用户名密码邮箱，还有邮箱验证码
+```
+
+### lerna publish
+发布前先提交git, private不会发布
+```js
+lerna publish
+```
