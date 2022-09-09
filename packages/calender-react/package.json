@@ -1,6 +1,6 @@
 {
   "name": "@wh/calender-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "./lib/calender.umd.js",
   "module": "./lib/calender.es.js",
