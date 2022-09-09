@@ -79,5 +79,5 @@ git push --delete origin <your_tag_name> 删除远程仓库的标签
 ### lerna publish
 发布前先提交git, 包为private不会发布，如果发布未成功但是tag又打上了，可以先删除git tag
 ```js
-lerna publish
+lerna publish --access public // npm 包发布默认是私有发布，改成public
 ```
