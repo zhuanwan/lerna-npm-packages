@@ -1,0 +1,48 @@
+{
+  "name": "@wh/calender-react",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./lib/calender.umd.js",
+  "module": "./lib/calender.es.js",
+  "files": [
+    "lib",
+    "types"
+  ],
+  "typings": "./types/index.d.ts",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "less": "^4.1.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "description": "calender",
+  "author": "237616635@qq.com",
+  "homepage": "https://github.com/zhuanwan/lerna-npm-packages#readme",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "types": "types",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuanwan/lerna-npm-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@wh/cropper-js",
+  "version": "1.0.0",
+  "description": "cropper",
+  "keywords": [],
+  "author": "237616635@qq.com",
+  "license": "ISC",
+  "main": "lib/cropper-js.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuanwan/lerna-npm-packages.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@wh/cropper-js.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
+  },
+  "homepage": "https://github.com/zhuanwan/lerna-npm-packages#readme"
+}
