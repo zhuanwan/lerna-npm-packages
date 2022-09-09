@@ -1,6 +1,7 @@
 {
   "name": "@wh/cropper-js",
   "version": "1.0.0",
+  "private": true,
   "description": "cropper",
   "keywords": [],
   "author": "237616635@qq.com",
