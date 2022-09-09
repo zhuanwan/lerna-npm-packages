@@ -69,7 +69,7 @@ npm login // 输入用户名密码邮箱，还有邮箱验证码
 ```
 
 ### lerna publish
-发布前先提交git, private不会发布
+发布前先提交git, 包为private不会发布，如果发布未成功但是tag又打上了，可以先删除git tag
 ```js
 lerna publish
 ```
