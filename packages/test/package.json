@@ -1,5 +1,5 @@
 {
-  "name": "@wh/test1021111417",
+  "name": "@wh1016/test1016",
   "version": "1.0.9",
   "description": "description",
   "author": "zhuanwan",
@@ -26,6 +26,5 @@
   },
   "bugs": {
     "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
-  },
-  "gitHead": "b9dd04cbd5bd01ed2dc3cdbd769b95edef206e24"
+  }
 }
