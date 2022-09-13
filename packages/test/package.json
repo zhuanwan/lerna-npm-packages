@@ -1,8 +1,8 @@
 {
-  "name": "@wh/test",
+  "name": "@wh/test1021111417",
   "version": "1.0.8",
-  "description": "> TODO: description",
-  "author": "wu.hui <wu.hui@qkupower.com>",
+  "description": "description",
+  "author": "zhuanwan",
   "homepage": "https://github.com/zhuanwan/lerna-npm-packages#readme",
   "license": "MIT",
   "main": "lib/test.js",
@@ -20,11 +20,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhuanwan/lerna-npm-packages.git"
-  },
-  "command": {
-    "publish": {
-      "registry": "https://registry.npmjs.org/"
-    }
   },
   "scripts": {
     "test": "node ./__tests__/@wh/test.test.js"

@@ -1,8 +1,14 @@
-43 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin mater
-43 error Connection reset by 140.82.112.4 port 22
-43 error fatal: Could not read from remote repository.
-43 error
-43 error Please make sure you have the correct access rights
-43 error and the repository exists.
-43 error     at makeError (E:\mywork\lerna-npm-packages\node_modules\execa\lib\error.js:60:11)
-43 error     at handlePromise (E:\mywork\lerna-npm-packages\node_modules\execa\index.js:118:26)
+15 error Error: Command failed with exit code 1: git remote update
+15 error Connection reset by 140.82.112.4 port 22
+15 error fatal: Could not read from remote repository.
+15 error
+15 error Please make sure you have the correct access rights
+15 error and the repository exists.
+15 error error: could not fetch origin
+15 error Fetching origin
+15 error     at makeError (E:\mywork\lerna-npm-packages\node_modules\execa\lib\error.js:60:11)
+15 error     at Function.module.exports.sync (E:\mywork\lerna-npm-packages\node_modules\execa\index.js:194:17)
+15 error     at Object.execSync (E:\mywork\lerna-npm-packages\node_modules\@lerna\child-process\index.js:39:16)
+15 error     at updateRemote (E:\mywork\lerna-npm-packages\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (E:\mywork\lerna-npm-packages\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (E:\mywork\lerna-npm-packages\node_modules\@lerna\version\index.js:156:9)
