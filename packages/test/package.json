@@ -1,6 +1,6 @@
 {
   "name": "@wh/test",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "> TODO: description",
   "author": "wu.hui <wu.hui@qkupower.com>",
   "homepage": "https://github.com/zhuanwan/lerna-npm-packages#readme",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
   },
-  "gitHead": "dae2f33a64a5d73ccc0a7d2e34152549ee8a4e6f"
+  "gitHead": "f778b8a1924a68d9e1a00f31f4171207a3ff095e"
 }
