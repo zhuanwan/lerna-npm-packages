@@ -3,5 +3,5 @@
 module.exports = test;
 
 function test() {
-    return "Hello from test";
+    return "Hello from test1";
 }
