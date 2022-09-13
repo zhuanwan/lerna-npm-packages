@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "wu.hui <wu.hui@qkupower.com>",
   "homepage": "https://github.com/zhuanwan/lerna-npm-packages#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/test.js",
   "directories": {
     "lib": "lib",
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
-  }
+  },
+  "gitHead": "dae2f33a64a5d73ccc0a7d2e34152549ee8a4e6f"
 }
