@@ -46,5 +46,6 @@
   "bugs": {
     "url": "https://github.com/zhuanwan/lerna-npm-packages/issues"
   },
-  "keywords": []
+  "keywords": [],
+  "gitHead": "4072e628ee1914d8e206f37eb6268138c8d9445e"
 }
